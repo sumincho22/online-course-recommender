@@ -1,0 +1,36 @@
+.Header {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ocr {
+    font-size: 35px;
+    font-style: italic;
+  }
+  
+  .sidebar {
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+  
+  #editTab, #homeTab {
+    padding: 10px;
+  }
+  
+  #editTab:hover, #homeTab:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline red;
+  }
+
+  .yes {
+    text-decoration: underline;
+  }
+
+  span:hover {
+    cursor: pointer;
+  }
